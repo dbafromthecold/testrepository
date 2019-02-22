@@ -8,6 +8,6 @@ entries:
     digest: 34f90168e7c2da2c53ecb14a001381edc2a29d787f295ad5ab52d03794a566e4
     name: testsqlchart
     urls:
-    - https://dbafromthecold.github.io/testrepository/
+    - https://raw.githubusercontent.com/dbafromthecold/testrepository/master
     version: 0.1.0
 generated: 2019-02-20T11:53:25.4123095Z
