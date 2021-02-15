@@ -14,11 +14,10 @@ www.dbafromthecold.com<br>
 
 ## Example bullet points
 
-@ul
 - Containers cannot see the entire host's filesystem<br>
 - They can only see a subset of that filesystem<br>
 - The container root directory is changed upon start up
-@ulend
+
 
 ---
 
@@ -26,9 +25,11 @@ www.dbafromthecold.com<br>
 
 <img src="images/docker_networks.png" style="float: right"/>
 
+<p align="left">
 - bridge<br>
 - host<br>
 - none<br>
+</p>
 
 ---
 
