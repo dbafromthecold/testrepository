@@ -14,13 +14,13 @@ www.dbafromthecold.com<br>
 
 ## Image example
 
-<img src="assets/images/docker_networks.png" style="float: right"/>
+<img src="assets/images/docker_networks.png" />
 
 ---
 
 ## Code example
 
-```bash
+<pre><code>
 docker run -d
 --publish 15789:1433
 --env SA_PASSWORD=Testing1122
@@ -36,4 +36,4 @@ docker run -d
 --volume sqlbackup:/var/opt/sqlserver/sqlbackups
 --name sqlcontainer1
 mcr.microsoft.com/mssql/server:2019-CU5-ubuntu-18.04
-```
+</pre></code>
