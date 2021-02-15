@@ -18,18 +18,15 @@ www.dbafromthecold.com<br>
 - They can only see a subset of that filesystem<br>
 - The container root directory is changed upon start up
 
-
 ---
 
 ## Image example
 
 <img src="images/docker_networks.png" style="float: right"/>
 
-<p align="left">
 - bridge<br>
 - host<br>
 - none<br>
-</p>
 
 ---
 
