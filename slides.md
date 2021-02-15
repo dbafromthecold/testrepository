@@ -20,7 +20,7 @@ www.dbafromthecold.com<br>
 
 ## Code example
 
-```
+```bash
 docker run -d
 --publish 15789:1433
 --env SA_PASSWORD=Testing1122
