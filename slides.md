@@ -24,9 +24,9 @@ www.dbafromthecold.com<br>
 
 <img src="images/docker_networks.png" style="float: right"/>
 
-- bridge<br>
-- host<br>
-- none<br>
+- Testing some longer text<br>
+- More text<br>
+- How is this formatted on the slide?<br>
 
 ---
 
