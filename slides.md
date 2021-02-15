@@ -20,9 +20,4 @@ www.dbafromthecold.com<br>
 
 ## Code example
 
-<section>
-  <p>example_code</p>
-  <pre><code data-trim>
-    <script src="assets/code/docker_container_run.sh"></script>
-  </code></pre>
-<section>
+<script src="assets/code/docker_container_run.sh"></script>
