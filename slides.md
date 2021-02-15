@@ -20,7 +20,7 @@ www.dbafromthecold.com<br>
 
 ## Code example
 
-<pre><code>
+<pre><code data-line-numbers="2|3-8">
 docker run -d
 --publish 15789:1433
 --env SA_PASSWORD=Testing1122
