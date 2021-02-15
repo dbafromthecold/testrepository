@@ -22,7 +22,7 @@ www.dbafromthecold.com<br>
 
 ## Image example
 
-<img src="images/docker_networks.png" style="float: right"/>
+<img src="images/docker_networks.png" style="vertical-align:middle"/>
 
 - Some text<br>
 - More text<br>
