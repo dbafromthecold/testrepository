@@ -14,7 +14,7 @@ www.dbafromthecold.com<br>
 
 ## Image example
 
-<img src="assets/images/docker_networks.png" />
+<img src="images/docker_networks.png" />
 
 ---
 
