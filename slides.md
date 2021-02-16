@@ -6,7 +6,6 @@
 
 ### SQL Server DBA, Microsoft Data Platform MVP, & Certified Kubernetes Administrator
 <!-- .slide: style="text-align: left;"> -->
-<script src="https://kit.fontawesome.com/838b94b605.js" crossorigin="anonymous"></script>
 <i class="fab fa-twitter"></i><a href="https://twitter.com/dbafromthecold">  @dbafromthecold</a><br>
 <i class="fas fa-envelope"></i>  dbafromthecold@gmail.com<br>
 <i class="fab fa-wordpress"></i>  www.dbafromthecold.com<br>
