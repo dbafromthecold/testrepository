@@ -5,11 +5,12 @@
 ## Andrew Pruski
 
 ### SQL Server DBA, Microsoft Data Platform MVP, & Certified Kubernetes Administrator
+<!-- .slide: style="text-align: left;"> -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-<i class="fab fa-twitter"></i><a href="https://twitter.com/dbafromthecold">@dbafromthecold</a><br>
-<i class="fas fa-envelope"></i>dbafromthecold@gmail.com
-<i class="fab fa-wordpress"></i>www.dbafromthecold.com<br>
-<i class="fab fa-github"></i><a href="https://github.com/dbafromthecold">github.com/dbafromthecold.com</a>
+<i class="fab fa-twitter"></i><a href="https://twitter.com/dbafromthecold">  @dbafromthecold</a><br>
+<i class="fas fa-envelope"></i>  dbafromthecold@gmail.com<br>
+<i class="fab fa-wordpress"></i>  www.dbafromthecold.com<br>
+<i class="fab fa-github"></i><a href="https://github.com/dbafromthecold">  github.com/dbafromthecold.com</a>
 
 ---
 
