@@ -26,10 +26,6 @@
 ## Test Bullet Points 2
 
 <ul>
-    <li class="fragment">
-        <li>Bullet Point 1</li>
-    </li>
-    <li class="fragment">
-        <li>Bullet Point 2</li>
-    </li>
+    <li class="fragment">Bullet Point 1</li>
+    <li class="fragment">Bullet Point 2</li>
 </ul>
