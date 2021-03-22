@@ -25,7 +25,5 @@
 
 ## Test Bullet Points 2
 
-<ul>
-    <li class="fragment">Bullet Point 1</li>
-    <li class="fragment">Bullet Point 2</li>
-</ul>
+<p class="fragment">- Bullet Point 1</p>
+<p class="fragment">- Bullet Point 2</p>
