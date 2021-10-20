@@ -1,11 +1,34 @@
 apiVersion: v1
 entries:
+  chartmuseum:
+  - apiVersion: v2
+    appVersion: 0.13.1
+    created: "2021-10-20T17:07:39.3357962+01:00"
+    description: Host your own Helm Chart Repository
+    digest: 6c21da8808ec0e07b20ec6b61c2e7c827f8ebd325b3e590e21fe7bd6ab08624b
+    home: https://github.com/helm/chartmuseum
+    icon: https://raw.githubusercontent.com/chartmuseum/charts/main/logo.jpg
+    keywords:
+    - chartmuseum
+    - helm
+    - charts repo
+    maintainers:
+    - name: chartmuseum
+      url: https://github.com/chartmuseum
+    name: chartmuseum
+    sources:
+    - https://github.com/chartmuseum/charts/tree/main/src/chartmuseum
+    - https://github.com/chartmuseum
+    - https://github.com/helm/chartmuseum
+    urls:
+    - chartmuseum-3.3.0.tgz
+    version: 3.3.0
   mysql:
   - annotations:
       category: Database
     apiVersion: v2
     appVersion: 8.0.22
-    created: "2021-10-20T17:02:14.0005641+01:00"
+    created: "2021-10-20T17:07:39.3437939+01:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -36,7 +59,7 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: 8.0.22
-    created: "2021-10-20T17:02:13.9895681+01:00"
+    created: "2021-10-20T17:07:39.3377963+01:00"
     description: Chart to create a Highly available MySQL cluster
     digest: bdd3c5e38f18a4f9c5f71e9429122c705bb766991d8dcd36ee076616e79ef9b7
     home: https://github.com/bitnami/charts/tree/master/bitnami/mysql
@@ -57,4 +80,4 @@ entries:
     urls:
     - mysql-7.0.0.tgz
     version: 7.0.0
-generated: "2021-10-20T17:02:13.9775655+01:00"
+generated: "2021-10-20T17:07:39.3338073+01:00"
