@@ -1,0 +1,60 @@
+apiVersion: v1
+entries:
+  mysql:
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 8.0.22
+    created: "2021-10-20T17:02:14.0005641+01:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: Chart to create a Highly available MySQL cluster
+    digest: 87ce589977db7d0b72fa822dcac0eff8ab7858ef96b2610daf995a6504152aef
+    home: https://github.com/bitnami/charts/tree/master/bitnami/mysql
+    icon: https://bitnami.com/assets/stacks/mysql/img/mysql-stack-220x234.png
+    keywords:
+    - mysql
+    - database
+    - sql
+    - cluster
+    - high availablity
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: mysql
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mysql
+    - https://mysql.com
+    urls:
+    - mysql-8.0.0.tgz
+    version: 8.0.0
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 8.0.22
+    created: "2021-10-20T17:02:13.9895681+01:00"
+    description: Chart to create a Highly available MySQL cluster
+    digest: bdd3c5e38f18a4f9c5f71e9429122c705bb766991d8dcd36ee076616e79ef9b7
+    home: https://github.com/bitnami/charts/tree/master/bitnami/mysql
+    icon: https://bitnami.com/assets/stacks/mysql/img/mysql-stack-220x234.png
+    keywords:
+    - mysql
+    - database
+    - sql
+    - cluster
+    - high availablity
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: mysql
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mysql
+    - https://mysql.com
+    urls:
+    - mysql-7.0.0.tgz
+    version: 7.0.0
+generated: "2021-10-20T17:02:13.9775655+01:00"
