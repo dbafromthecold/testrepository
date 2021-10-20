@@ -3,7 +3,7 @@ entries:
   chartmuseum:
   - apiVersion: v2
     appVersion: 0.13.1
-    created: "2021-10-20T17:07:39.3357962+01:00"
+    created: "2021-10-20T17:12:46.2280462+01:00"
     description: Host your own Helm Chart Repository
     digest: 6c21da8808ec0e07b20ec6b61c2e7c827f8ebd325b3e590e21fe7bd6ab08624b
     home: https://github.com/helm/chartmuseum
@@ -24,20 +24,12 @@ entries:
     - chartmuseum-3.3.0.tgz
     version: 3.3.0
   mysql:
-  - annotations:
-      category: Database
-    apiVersion: v2
-    appVersion: 8.0.22
-    created: "2021-10-20T17:07:39.3437939+01:00"
-    dependencies:
-    - name: common
-      repository: https://charts.bitnami.com/bitnami
-      tags:
-      - bitnami-common
-      version: 1.x.x
+  - apiVersion: v1
+    appVersion: 8.0.15
+    created: "2021-10-20T17:12:46.2420459+01:00"
     description: Chart to create a Highly available MySQL cluster
-    digest: 87ce589977db7d0b72fa822dcac0eff8ab7858ef96b2610daf995a6504152aef
-    home: https://github.com/bitnami/charts/tree/master/bitnami/mysql
+    digest: 07e519c40c18b7bead5c636bc3973ffb51bc4bb2fcd9b7e6c6a553f04479e4e5
+    home: https://mysql.com
     icon: https://bitnami.com/assets/stacks/mysql/img/mysql-stack-220x234.png
     keywords:
     - mysql
@@ -51,18 +43,15 @@ entries:
     name: mysql
     sources:
     - https://github.com/bitnami/bitnami-docker-mysql
-    - https://mysql.com
     urls:
-    - mysql-8.0.0.tgz
-    version: 8.0.0
-  - annotations:
-      category: Database
-    apiVersion: v2
-    appVersion: 8.0.22
-    created: "2021-10-20T17:07:39.3377963+01:00"
+    - mysql-5.0.0.tgz
+    version: 5.0.0
+  - apiVersion: v1
+    appVersion: 5.7.23
+    created: "2021-10-20T17:12:46.2340473+01:00"
     description: Chart to create a Highly available MySQL cluster
-    digest: bdd3c5e38f18a4f9c5f71e9429122c705bb766991d8dcd36ee076616e79ef9b7
-    home: https://github.com/bitnami/charts/tree/master/bitnami/mysql
+    digest: 0979e0e5fc07a69dfccc39905bbd70503a3564ba0cdcd3c828941da1755b22e4
+    home: https://mysql.com
     icon: https://bitnami.com/assets/stacks/mysql/img/mysql-stack-220x234.png
     keywords:
     - mysql
@@ -76,8 +65,7 @@ entries:
     name: mysql
     sources:
     - https://github.com/bitnami/bitnami-docker-mysql
-    - https://mysql.com
     urls:
-    - mysql-7.0.0.tgz
-    version: 7.0.0
-generated: "2021-10-20T17:07:39.3338073+01:00"
+    - mysql-4.0.0.tgz
+    version: 4.0.0
+generated: "2021-10-20T17:12:46.2260469+01:00"
