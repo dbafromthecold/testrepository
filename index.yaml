@@ -3,7 +3,7 @@ entries:
   chartmuseum:
   - apiVersion: v2
     appVersion: 0.13.1
-    created: "2021-10-20T17:12:46.2280462+01:00"
+    created: "2021-10-21T09:47:27.1026715+01:00"
     description: Host your own Helm Chart Repository
     digest: 6c21da8808ec0e07b20ec6b61c2e7c827f8ebd325b3e590e21fe7bd6ab08624b
     home: https://github.com/helm/chartmuseum
@@ -25,47 +25,51 @@ entries:
     version: 3.3.0
   mysql:
   - apiVersion: v1
-    appVersion: 8.0.15
-    created: "2021-10-20T17:12:46.2420459+01:00"
-    description: Chart to create a Highly available MySQL cluster
-    digest: 07e519c40c18b7bead5c636bc3973ffb51bc4bb2fcd9b7e6c6a553f04479e4e5
-    home: https://mysql.com
-    icon: https://bitnami.com/assets/stacks/mysql/img/mysql-stack-220x234.png
+    appVersion: 5.7.30
+    created: "2021-10-21T09:47:27.1056344+01:00"
+    description: Fast, reliable, scalable, and easy to use open-source relational
+      database system.
+    digest: d9a99412fa7f28f8a2443060a40cfed95f5cb5f09fffa1acfe51e114e9c73d18
+    home: https://www.mysql.com/
+    icon: https://www.mysql.com/common/logos/logo-mysql-170x115.png
     keywords:
     - mysql
     - database
     - sql
-    - cluster
-    - high availablity
     maintainers:
-    - email: containers@bitnami.com
-      name: Bitnami
+    - email: o.with@sportradar.com
+      name: olemarkus
+    - email: viglesias@google.com
+      name: viglesiasce
     name: mysql
     sources:
-    - https://github.com/bitnami/bitnami-docker-mysql
+    - https://github.com/kubernetes/charts
+    - https://github.com/docker-library/mysql
     urls:
-    - mysql-5.0.0.tgz
-    version: 5.0.0
+    - mysql-1.6.4.tgz
+    version: 1.6.4
   - apiVersion: v1
-    appVersion: 5.7.23
-    created: "2021-10-20T17:12:46.2340473+01:00"
-    description: Chart to create a Highly available MySQL cluster
-    digest: 0979e0e5fc07a69dfccc39905bbd70503a3564ba0cdcd3c828941da1755b22e4
-    home: https://mysql.com
-    icon: https://bitnami.com/assets/stacks/mysql/img/mysql-stack-220x234.png
+    appVersion: 5.7.28
+    created: "2021-10-21T09:47:27.1046661+01:00"
+    description: Fast, reliable, scalable, and easy to use open-source relational
+      database system.
+    digest: 2e396f9919166098efe2dfd01099db50ab2b06213d200e8990cab9fa1d8c4868
+    home: https://www.mysql.com/
+    icon: https://www.mysql.com/common/logos/logo-mysql-170x115.png
     keywords:
     - mysql
     - database
     - sql
-    - cluster
-    - high availablity
     maintainers:
-    - email: containers@bitnami.com
-      name: Bitnami
+    - email: o.with@sportradar.com
+      name: olemarkus
+    - email: viglesias@google.com
+      name: viglesiasce
     name: mysql
     sources:
-    - https://github.com/bitnami/bitnami-docker-mysql
+    - https://github.com/kubernetes/charts
+    - https://github.com/docker-library/mysql
     urls:
-    - mysql-4.0.0.tgz
-    version: 4.0.0
-generated: "2021-10-20T17:12:46.2260469+01:00"
+    - mysql-1.6.3.tgz
+    version: 1.6.3
+generated: "2021-10-21T09:47:27.0976685+01:00"
