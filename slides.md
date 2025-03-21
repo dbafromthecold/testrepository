@@ -7,13 +7,4 @@
   <div class="h-captcha" data-sitekey="9fd631fe-f1a0-41d2-b14c-cfda2700901a"></div><br>
 
   <button type="submit">Sign Up</button>
-  <script>
-  document.addEventListener("submit", function (e) {
-    const captchaResponse = document.querySelector("[name='h-captcha-response']");
-    if (!captchaResponse || captchaResponse.value === "") {
-      e.preventDefault();
-      alert("Please complete the CAPTCHA.");
-    }
-  });
-  </script>
 </form>

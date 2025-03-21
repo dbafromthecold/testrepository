@@ -35,6 +35,15 @@
 		<script src="plugin/highlight/highlight.js"></script>
 		<script src="https://js.hcaptcha.com/1/api.js" async defer></script>
 		<script>
+			document.addEventListener("submit", function (e) {
+			  const captchaResponse = document.querySelector("[name='h-captcha-response']");
+			  if (!captchaResponse || captchaResponse.value === "") {
+				e.preventDefault();
+				alert("Please complete the CAPTCHA.");
+			  }
+			});
+			</script>
+		<script>
 			// More info about initialization & config:
 			// - https://revealjs.com/initialization/
 			// - https://revealjs.com/config/
